@@ -1,6 +1,6 @@
 import { expect, describe, test } from "vitest";
 
-import { plus, minus } from "../src/einfach/argumente";
+import { plus, minus } from "../src/einfach/01-argumente";
 
 describe("Zwei zahlen sollen addiert werden", () => {
   test("1 + 1 = 2", () => {

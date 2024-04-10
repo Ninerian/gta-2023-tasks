@@ -1,6 +1,6 @@
 import { describe, expect, test } from "vitest";
 
-import { a, b, c } from "../src/einfach/variablen";
+import { a, b, c } from "../src/einfach/02-variablen";
 
 describe("Variablen", () => {
   test("var laesst sich neu zuweisen", () => {

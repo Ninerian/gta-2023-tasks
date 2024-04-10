@@ -1,8 +1,8 @@
 import { expect, describe, test } from "vitest";
 
-import { anzahl, countdown } from "../src/einfach/while-schleife";
+import { anzahl, countdown } from "../src/einfach/03-for-schleife";
 
-describe("While-Schleife", () => {
+describe("For-Schleife", () => {
   test("Anzahl", () => {
     expect(anzahl).toBe(5);
   });

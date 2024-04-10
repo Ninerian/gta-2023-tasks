@@ -12,7 +12,7 @@ import {
   zahlen6,
   zahlen7,
   zahlen8,
-} from "../src/einfach/array";
+} from "../src/einfach/05-array";
 
 describe("Array", () => {
   test("Zahlen", () => {
@@ -64,6 +64,6 @@ describe("Array", () => {
   });
 
   test("Zahlen aus einer Liste kopieren", () => {
-    expect(zahlen8).toEqual([2, 3, 4]);
+    expect(zahlen8).toEqual([3, 4]);
   });
 });
